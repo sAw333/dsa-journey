@@ -1,3 +1,14 @@
+// Problem: Two Sum
+// Link: https://leetcode.com/problems/two-sum/
+// Difficulty: Easy
+
+// Approach:
+// - Use hashmap to store visited elements
+// - Check complement in O(1)
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
 function twoSum(nums, target) {
     const pairIdx = {};
 
